@@ -40,18 +40,19 @@ def http_download(url, dest):
 
 
 def parsear_simulacion(simu):
+	print simu['url']
 	sim_page = urllib2.urlopen('%s://%s%s' % (PROTOCOL, HOST, simu['url']))
 	sim_soup = BeautifulSoup(sim_page)
 
-	contenedor = sim_soup.find('table', attrs={'class': 'simulation-main-table'})
+	contenedor = sim_soup.find('div', attrs={'class': 'simulation-main-container'})
 
 	screenshot_url = contenedor.find('img', attrs={'class': 'simulation-main-screenshot'}).get('src')
-	archivo_url = contenedor.find('a', attrs={'class': 'sim-download sim-button'}).get('href')
+	archivo_url = contenedor.find('a', attrs={'class': 'phet-button sim-download sim-button'}).get('href')
 
 	guardar_archivos(screenshot_url, archivo_url)
 
 	return {'name': simu['name'],
-		'description': contenedor.find('span', attrs={'itemprop': 'description about'}).contents[0],
+		'description': contenedor.find('p', attrs={'itemprop': 'description about'}).contents[0],
 		'screenshot': os.path.basename(screenshot_url),
 		'file': os.path.basename(archivo_url).replace('?download','') }
 

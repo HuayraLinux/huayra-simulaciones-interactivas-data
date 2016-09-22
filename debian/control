@@ -2,7 +2,7 @@ Source: huayra-simulaciones-interactivas-data
 Section: education
 Priority: optional
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
-Build-Depends: debhelper (>= 8.0.0)
+Build-Depends: debhelper (>= 8.0.0), python, python-beautifulsoup
 Standards-Version: 3.9.3
 Homepage: http://phet.colorado.edu/en/simulations/translated/es
 

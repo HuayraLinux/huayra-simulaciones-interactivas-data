@@ -2,3 +2,5 @@
 
 %:
 	dh $@ 
+override_dh_auto_configure:
+	python descargar-data-categorias.py
