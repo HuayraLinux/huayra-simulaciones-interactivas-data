@@ -1,0 +1,72 @@
+huayra-simulaciones-interactivas-data (2.5.1) unstable; urgency=medium
+
+  * Fondos borrosos y actualizacion de script de descargas
+
+ -- Mauro <mauro@sdf.org>  Thu, 28 May 2015 12:55:19 -0300
+
+huayra-simulaciones-interactivas-data (2.5) unstable; urgency=medium
+
+  * Actualizacion de simulaciones
+  * Actualizacion de script de descargas
+
+ -- Mauro <mauro@sdf.org>  Fri, 22 May 2015 16:55:47 -0300
+
+huayra-simulaciones-interactivas-data (2.4) unstable; urgency=medium
+
+  * Actualiza simulaciones
+
+ -- Matias De lellis <mati86dl@gmail.com>  Fri, 13 Mar 2015 12:36:16 -0300
+
+huayra-simulaciones-interactivas-data (2.3) unstable; urgency=medium
+
+  * Agregando init para el paquete de datos
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 11 Feb 2014 14:53:23 -0300
+
+huayra-simulaciones-interactivas-data (2.2) unstable; urgency=low
+
+  * faltaba archivo simulaciones_categorias
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 10 Feb 2014 10:19:00 -0300
+
+huayra-simulaciones-interactivas (2.1) unstable; urgency=low
+
+  * mejoras en la version 2 de simulaciones
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 06 Feb 2014 14:56:20 -0300
+
+huayra-simulaciones-interactivas (2.0) unstable; urgency=low
+
+  * nueva version de simulaciones interactivas 2.0
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 11 Dec 2013 13:15:06 -0300
+
+huayra-simulaciones-interactivas (1.1-3) testing; urgency=low
+
+  * correccion de permiso del script 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 06 May 2013 17:49:06 -0300
+
+huayra-simulaciones-interactivas (1.1-2) testing; urgency=low
+
+  * Non-maintainer upload.
+  * correccion icono del menu
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 01 May 2013 13:18:20 -0300
+
+huayra-simulaciones-interactivas (1.1) testing; urgency=low
+
+  * Non-maintainer upload.
+  * Cambié el logo que usa en el menú
+  * Cambié la ubicación en el menú 
+  * Agregué un .desktop de la aplicación
+  * Cambié el .install y el .links que estaban mal y no empaquetaba
+  * Cambié las dependencias (borré menu que estaba dos veces y cambié menu-xdg por xdg-menu)
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Thu, 21 Mar 2013 19:17:04 -0300
+
+huayra-simulaciones-interactivas (1.0-1) testing; urgency=low
+
+  * Entrada para las simulaciones.
+
+ -- Mauro Lizaur <mauro@debian.org>  Wed, 30 Oct 2012 22:45:47 -0300

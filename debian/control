@@ -1,0 +1,16 @@
+Source: huayra-simulaciones-interactivas-data
+Section: education
+Priority: optional
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://phet.colorado.edu/en/simulations/translated/es
+
+Package: huayra-simulaciones-interactivas-data
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: huayra-simulaciones-interactivas
+Description: Datos de simulaciones interactivas .
+ Utilizando esta aplicación podrás encontrar simulaciones interactivas 
+ sobre fisica.
+ Este paquete contiene los datos (archivos de simulaciones)-
