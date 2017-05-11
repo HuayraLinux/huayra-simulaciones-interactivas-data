@@ -1,0 +1,29 @@
+{
+  "name": "huayra-simulaciones-interactivas-data",
+  "version": "0.1.0",
+  "description": "Scripts for downloading PhET simulations",
+  "main": "dump-phet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huayra/huayra-simulaciones-interactivas-data.git"
+  },
+  "keywords": [
+    "scripts",
+    "scraping",
+    "scraper",
+    "osmosis",
+    "phet"
+  ],
+  "author": "Ignacio E. Losiggio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huayra/huayra-simulaciones-interactivas-data/issues"
+  },
+  "homepage": "https://github.com/huayra/huayra-simulaciones-interactivas-data#readme",
+  "dependencies": {
+    "osmosis": "^1.1.4"
+  }
+}
