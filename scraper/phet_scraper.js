@@ -10,6 +10,21 @@ function all_data(osmosis_instance) {
                     .done(() => resolve(data_list)));
 }
 
+function unificar_experimentos([descargas, metadata]) {
+  /* Creo un objeto { nombre => experimento }  */
+  const experimentos_obj = descargas.reduce((obj, experimento) => {
+    return Object.assign({[experimento.nombre]: experimento}, obj)
+  }, {});
+
+  /* Le agrego la data */
+  const result = metadata.reduce((obj, data) => {
+    const experimento = Object.assign({}, data, experimentos_obj[data.nombre]);
+    return Object.assign({}, obj, { [data.nombre]: experimento });
+  }, {});
+
+  return result;
+}
+
 function print(osmosis_instance) {
   all_data(osmosis_instance).then(console.log);
 }
@@ -22,8 +37,8 @@ function log(prefijo) {
   return console.log.bind(console, `[${prefijo}]`);
 }
 
-const experimentos_url = 'https://phet.colorado.edu/es/offline-access';
-const experimentos = osmosis(experimentos_url)
+const experimentos_descargas_url = 'https://phet.colorado.edu/es/offline-access';
+const experimentos_descargas = osmosis(experimentos_descargas_url)
 .find('#offline-access tr.offline-access')
 .set({
     'nombre': '.oa-title > span',
@@ -39,7 +54,7 @@ const experimentos_data = osmosis(experimentos_data_url)
 .follow('a.simulation-link@href')
 .set({
   'nombre': '.simulation-main-title',
-  'image': '.simulation-main-screenshot@src',
+  'imagen': '.simulation-main-screenshot@src',
   'categorias': ['.nml-link-label.selected'],
   'info': '#about:html',
   'credits': '#credits:html'
@@ -58,10 +73,16 @@ const categorias = osmosis(categorias_url)
 .log(log('categorias'))
 .error(log('categorias'));
 
-Promise.all([experimentos, experimentos_data, categorias].map(all_data)).then(write_json).catch(log('ERROR'))
+const experimentos = Promise.all([experimentos_descargas, experimentos_data].map(all_data))
+                            .then(unificar_experimentos);
+
+Promise.all([experimentos, all_data(categorias)])
+.then(([experimentos, categorias]) => ({ experimentos, categorias }))
+.then(write_json)
+.catch(log('ERROR'));
 
 //
-// Esto no funciona, lo comento por si en algún momento puedo hacerlo andar
+// Esto no funciona, lo comento por si en algï¿½n momento puedo hacerlo andar
 //
 //const actividades_parse_table = (context, data, next) => {
 //  context
