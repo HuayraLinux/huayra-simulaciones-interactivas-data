@@ -18,6 +18,7 @@ function print(osmosis_instance) {
 }
 
 function write_json(data, filename = dump_filename, spaces = 4, cb = () => {}) {
+  console.log('[write_json]', filename);
   fs.writeFile(filename, JSON.stringify(data, null, spaces), cb);
 }
 
@@ -60,7 +61,7 @@ function download_data(experimentos) {
 }
 
 function use(fun) {
-  return val => fun(val).then(() => val);
+  return val => (fun(val), val);
 }
 
 const experimentos_url = 'https://phet.colorado.edu/es/simulations'
@@ -88,9 +89,8 @@ const categorias = osmosis(categorias_url)
 .log(log('categorias'))
 .error(log('categorias'));
 
-const experimentos_descargados = all_data(experimentos)
-.then(use(create_dirs))
-.then(use(download_data));
+const experimentos_descargados = create_dirs()
+.then(() => all_data(experimentos).then(use(download_data)));
 
 Promise.all([
   experimentos_descargados,
