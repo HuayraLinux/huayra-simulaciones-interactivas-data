@@ -2,6 +2,7 @@ const osmosis = require('osmosis');
 const fs = require('fs');
 const {get} = require('https');
 const path = require('path').parse;
+const {write_json, log, mkdir} = require('./utils');
 
 const dump_filename = 'phet_scraper.json';
 
@@ -17,15 +18,6 @@ function print(osmosis_instance) {
   .then(console.log);
 }
 
-function write_json(data, filename = dump_filename, spaces = 4, cb = () => {}) {
-  console.log('[write_json]', filename);
-  fs.writeFile(filename, JSON.stringify(data, null, spaces), cb);
-}
-
-function log(prefijo) {
-  return console.log.bind(console, `[${prefijo}]`);
-}
-
 function download_file(url, filename) {
   /* debug log */
   console.log('[download_file]', url, filename, 'STARTED');
@@ -33,11 +25,6 @@ function download_file(url, filename) {
   const file = fs.createWriteStream(filename);
   return new Promise((resolve, reject) => get(url, res => (res.on('close', resolve), res.pipe(file))))
     .then(use(() => console.log('[download_file]', url, filename, 'FINISHED')));
-}
-
-function mkdir(dir) {
-  return new Promise((resolve, reject) =>
-    fs.mkdir(dir, err => err? reject(err) : resolve()));
 }
 
 function create_dirs() {
@@ -57,6 +44,14 @@ function download_data(experimentos) {
       download_file(`${url}${imagen}`, `imagenes/${imagen_filename}`),
       download_file(`${url}${descarga}`, `experimentos/${descarga_filename}`)
     ]);
+  }));
+}
+
+function update_filenames(experimentos) {
+  return experimentos.map(experimento => Object.assign({}, experimento, {
+    imagen: path(experimento.imagen).base,
+    filename: path(experimento.descarga).base.replace(/\?[^?]*$/, ''),
+    descarga: undefined
   }));
 }
 
@@ -90,12 +85,14 @@ const categorias = osmosis(categorias_url)
 .error(log('categorias'));
 
 const experimentos_descargados = create_dirs()
-.then(() => all_data(experimentos).then(use(download_data)));
+.then(() => all_data(experimentos))
+.then(use(download_data))
+.then(update_filenames);
 
 Promise.all([
   experimentos_descargados,
   all_data(categorias)
 ])
 .then(([experimentos, categorias]) => ({experimentos, categorias}))
-.then(write_json)
+.then(data => write_json(data, dump_filename))
 .catch(log('ERROR'));
