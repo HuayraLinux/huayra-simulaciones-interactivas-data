@@ -1,8 +1,8 @@
 {
   "name": "huayra-simulaciones-interactivas-data",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Scripts for downloading PhET simulations",
-  "main": "dump-phet.js",
+  "main": "phet_scraper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

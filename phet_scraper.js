@@ -30,7 +30,7 @@ function download_file(url, filename) {
 function create_dirs() {
   return Promise.all([
     mkdir('imagenes'),
-    mkdir('experimentos')
+    mkdir('simulaciones')
   ]);
 }
 
@@ -42,7 +42,7 @@ function download_data(experimentos) {
 
     return Promise.all([
       download_file(`${url}${imagen}`, `imagenes/${imagen_filename}`),
-      download_file(`${url}${descarga}`, `experimentos/${descarga_filename}`)
+      download_file(`${url}${descarga}`, `simulaciones/${descarga_filename}`)
     ]);
   }));
 }

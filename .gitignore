@@ -1,6 +1,6 @@
 node_modules/
 data/*
-scraper/imagenes
-scraper/experimentos
-scraper/data
-scraper/*.json
+imagenes
+experimentos
+data
+phet_scraper.json

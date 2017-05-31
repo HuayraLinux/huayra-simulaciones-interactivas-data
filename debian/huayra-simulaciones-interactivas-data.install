@@ -1,3 +1,4 @@
-data/simulaciones/ usr/share/huayra-simulaciones-interactivas/data/
-data/screenshots/ usr/share/huayra-simulaciones-interactivas/data/
-data/fondos/ usr/share/huayra-simulaciones-interactivas/data/
+simulaciones/	usr/share/huayra-simulaciones-interactivas-data/
+imagenes/	usr/share/huayra-simulaciones-interactivas-data/
+categorias/	usr/share/huayra-simulaciones-interactivas-data/imagenes/
+data/*.json	usr/share/huayra-simulaciones-interactivas-data/

@@ -2,7 +2,8 @@ const {readFileSync, writeFileSync} = require('fs');
 const {write_json, mkdir} = require('./utils');
 
 const orig_filename = './phet_scraper.json';
-const dump_filename = 'data/simulations.json';
+const dump_filename_simulations = 'data/simulations.json';
+const dump_filename_categories = 'data/categories.json';
 
 function _in(array) {
   const set = new Set(array);
@@ -38,14 +39,44 @@ const subcategorias = dump.categorias
 
 const short_info_regex = /<p class="simulation-panel-indent" itemprop="description about">(.+)<\/p>/;
 
-const experimentos = dump.experimentos.map(exp => ({
+const experimentos = dump.experimentos
+.map(exp => ({
   title: exp.nombre,
   description: exp.info.match(short_info_regex)[1],
   categorias: procesar_categorias(exp.categorias),
-  thumb: exp.imagen,
   screenshot: exp.imagen,
   file: exp.filename
 }));
 
+const cat_busqueda = 'Resultados de búsqueda';
+const cat_fondos = {
+  'Física': 'fisica.png',
+  'Química': 'quimica.png',
+  'Biología': 'biologia.png',
+  'Matemática': 'matematica.png',
+  'Nuevas Simulaciones': 'nuevas.png',
+  'Ciencias de la Tierra': 'tierra.png',
+  [cat_busqueda]: 'buscar.png',
+  'Investigaciones avanzadas': 'avanzadas.png'
+};
 
-mkdir('data').then(() => write_json(experimentos, dump_filename));
+const categorias = experimentos
+.map(({categorias}, indice) => ({categorias, indice}))
+.reduce((result, {categorias, indice}) =>
+  Object.assign({}, result, categorias.reduce((acc, cat) => Object.assign({}, acc, {
+    [cat]: {
+      name: cat,
+      fondo: cat_fondos[cat],
+      simus: result[cat]? result[cat].simus.concat(indice) : [indice]
+    }
+  }), {})), {
+  [cat_busqueda]: {
+    name: cat_busqueda,
+    fondo: cat_fondos[cat_busqueda],
+    simus: []
+  }
+});
+
+mkdir('data')
+.then(() => write_json(experimentos, dump_filename_simulations))
+.then(() => write_json(categorias, dump_filename_categories));
