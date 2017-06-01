@@ -4,4 +4,4 @@ all: clean
 	nodejs data_adapter.js
 
 clean:
-	rm -rf data imagenes experimentos phet_scraper.json node_modules
+	rm -rf data imagenes simulaciones phet_scraper.json node_modules
