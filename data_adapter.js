@@ -48,19 +48,17 @@ const experimentos = dump.experimentos
   file: exp.filename
 }));
 
-const cat_busqueda = 'Resultados de búsqueda';
 const cat_fondos = {
   'Física': 'fisica.png',
   'Química': 'quimica.png',
   'Biología': 'biologia.png',
-  'Matemática': 'matematica.png',
+  'Matemáticas': 'matematica.png',
   'Nuevas Simulaciones': 'nuevas.png',
   'Ciencias de la Tierra': 'tierra.png',
-  [cat_busqueda]: 'buscar.png',
   'Investigaciones avanzadas': 'avanzadas.png'
 };
 
-const categorias = experimentos
+const categorias = Object.assign({}, experimentos
 .map(({categorias}, indice) => ({categorias, indice}))
 .reduce((result, {categorias, indice}) =>
   Object.assign({}, result, categorias.reduce((acc, cat) => Object.assign({}, acc, {
@@ -70,9 +68,10 @@ const categorias = experimentos
       simus: result[cat]? result[cat].simus.concat(indice) : [indice]
     }
   }), {})), {
-  [cat_busqueda]: {
-    name: cat_busqueda,
-    fondo: cat_fondos[cat_busqueda],
+}), {
+  filtrar: {
+    name: 'Resultados de búsqueda',
+    fondo: 'buscar.png',
     simus: []
   }
 });
