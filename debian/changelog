@@ -1,3 +1,9 @@
+huayra-simulaciones-interactivas-data (3.0.0) unstable; urgency=medium
+
+  * Reconstruidos los scripts
+
+ -- Ignacio Losiggio <iglosiggio@gmail.com>  Mon, 12 Jun 2017 11:39:59 -0300
+
 huayra-simulaciones-interactivas-data (2.5.1) unstable; urgency=medium
 
   * Fondos borrosos y actualizacion de script de descargas
