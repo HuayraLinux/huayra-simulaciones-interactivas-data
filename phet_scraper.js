@@ -6,6 +6,9 @@ const {write_json, log, mkdir} = require('./utils');
 
 const dump_filename = 'phet_scraper.json';
 
+const SIMULTANEOUS_DOWNLOADS = 5;
+const download_queue = new Array(SIMULTANEOUS_DOWNLOADS).fill(Promise.resolve());
+
 function all_data(osmosis_instance) {
   const data_list = [];
   return new Promise(resolve => osmosis_instance
@@ -18,13 +21,26 @@ function print(osmosis_instance) {
   .then(console.log);
 }
 
-function download_file(url, filename) {
-  /* debug log */
-  console.log('[download_file]', url, filename, 'STARTED');
+function add_to_queue(fn) {
+  const queued = download_queue.shift().then(fn);
+  download_queue.push(queued);
+  return queued;
+}
 
-  const file = fs.createWriteStream(filename);
-  return new Promise((resolve, reject) => get(url, res => (res.on('close', resolve), res.pipe(file))))
-    .then(use(() => console.log('[download_file]', url, filename, 'FINISHED')));
+function download_file(url, filename) {
+  console.log('[download_file]', filename, 'QUEUED');
+  return add_to_queue(() => {
+
+    const file = fs.createWriteStream(filename);
+
+    return new Promise((resolve, reject) => get(url, res => {
+      /* debug log */
+      console.log('[download_file]', filename, 'STARTED');
+
+      res.on('end', resolve);
+      res.pipe(file);
+    }));
+  }).then(use(() => console.log('[download_file]', filename, 'FINISHED')));
 }
 
 function create_dirs() {
