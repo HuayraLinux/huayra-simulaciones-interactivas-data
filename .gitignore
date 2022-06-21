@@ -1,6 +1,6 @@
 node_modules/
-data/*
-imagenes
-simulaciones
-data
+#data/*
+#imagenes
+#simulaciones
+#data
 phet_scraper.json

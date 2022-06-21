@@ -1,0 +1,1365 @@
+[
+    {
+        "title": "Aritmética",
+        "description": "¿Recuerdas las tablas de multiplicar? Practica tus habilidades de multiplicación, división y factorización con este fascinante juego. ¡No está permitido el uso de calculadora!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Matemáticas"
+        ],
+        "screenshot": "arithmetic-600.png",
+        "file": "arithmetic_es.html"
+    },
+    {
+        "title": "Aterrizaje Lunar",
+        "description": "¿Puedes evitar el campo de roca y tierra de forma segura, justo antes de que el combustible se agote, como Neil Armstrong lo hizo en 1969? Nuestra versión de este clásico de los videojuegos simula con precisión el movimiento real de la nave lunar con la masa, el empuje, la tasa de consumo de combustible, y la gravedad lunar correcta. El verdadero módulo de descenso lunar es muy difícil de controlar.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "lunar-lander-600.png",
+        "file": "lunar-lander_es.jar"
+    },
+    {
+        "title": "Adición de Vectores",
+        "description": "Aprende a sumar vectores. Arrastra los vectores en un gráfico, cambia su longitud y ángulo, y súmalos. La magnitud, el ángulo, y los componentes de cada vector se pueden mostrar en varios formatos.",
+        "categorias": [
+            "Matemáticas"
+        ],
+        "screenshot": "vector-addition-600.png",
+        "file": "vector-addition_es.jar"
+    },
+    {
+        "title": "Ajustando la Curva",
+        "description": "Con el ratón, arrastra los puntos de datos y sus barras de error, y mira el mejor ajuste de la curva polinomial que instantáneamente se actualiza. Puedes escoger el tipo de ajuste: lineal, cuadrático, cúbico, o cuártico. La estadística reducida de chi-cuadrado te muestra cuando el ajuste es bueno. O puedes tratar de encontrar el mejor arreglo manualmente ajustando los parámetros.",
+        "categorias": [
+            "Biología",
+            "Matemáticas"
+        ],
+        "screenshot": "curve-fitting-600.png",
+        "file": "curve-fitting_es.jar"
+    },
+    {
+        "title": "Bajo presión",
+        "description": "Explora la presión por encima y debajo del agua. Ve cómo cambia la presión a medida que cambias los fluidos, la gravedad, la forma del contenedor, y el volumen.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "under-pressure-600.png",
+        "file": "under-pressure_es.html"
+    },
+    {
+        "title": "Visión del color",
+        "description": "Crea un arco iris combinando luz roja, verde y azul. Cambia la longitud de onda de un haz monocromático o filtro de luz blanca. Ve la luz como un haz sólido, o como fotones individuales.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Biología"
+        ],
+        "screenshot": "color-vision-600.png",
+        "file": "color-vision_es.html"
+    },
+    {
+        "title": "Voltaje de batería",
+        "description": "Mira el interior de la batería para ver cómo funciona. Selecciona el voltaje de la batería y las pequeñas figuras mueven las cargas de un extremo a otro de la batería. Un voltímetro te indica el voltaje resultante de la batería.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "battery-voltage-600.png",
+        "file": "battery-voltage_es.jar"
+    },
+    {
+        "title": "Velocidades de reacción",
+        "description": "Explora lo que hace que ocurra una reacción al chocar átomos y moléculas. Diseña experimentos con diferentes reacciones, concentraciones y temperaturas. ¿Cuándo son reversibles las reacciones? ¿Qué afecta la velocidad de una reacción?",
+        "categorias": [
+            "Física",
+            "Biología",
+            "Química"
+        ],
+        "screenshot": "reactions-and-rates-600.png",
+        "file": "reactions-and-rates_es.jar"
+    },
+    {
+        "title": "Travoltaje",
+        "description": "Haz volar chispas con John Travoltage. ¡Explora cómo el cargar a Johnnie y mover sus manos cambia la manera en que se electrocuta!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física"
+        ],
+        "screenshot": "john-travoltage-600.png",
+        "file": "john-travoltage_es.html"
+    },
+    {
+        "title": "Tour trigonométrico",
+        "description": "¡Haz un recorrido a través de la trigonometría utilizando grados o radianes! Busca patrones en los valores y en el gráfico cuando se cambia el valor de theta. Compara las gráficas de seno, coseno y tangente .",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Matemáticas"
+        ],
+        "screenshot": "trig-tour-600.png",
+        "file": "trig-tour_es.html"
+    },
+    {
+        "title": "Tectónica de placas",
+        "description": "Explora cómo las placas se mueven sobre la superficie de la tierra. Cambia la temperatura, la composición y espesor de las placas. ¡Descubre cómo crear nuevas montañas, volcanes y océanos!",
+        "categorias": [
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "plate-tectonics-screenshot.png",
+        "file": "plate-tectonics_es.jar"
+    },
+    {
+        "title": "Torsión",
+        "description": "Investiga cómo el par de tuercas hace que un objeto gire o rote. Descubre las relaciones entre la aceleración angular, momento de inercia, momento angular y el par de tuercas.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "torque-screenshot.png",
+        "file": "torque_es.jar"
+    },
+    {
+        "title": "Señal de Circuito",
+        "description": "¿Por qué se encienden las luces en una habitación tan pronto como accionas un interruptor? Activa el interruptor y observa los electrones ¿Se enciende la luz de inmediato? Explica usando tus observaciones del modelo.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "signal-circuit-600.png",
+        "file": "signal-circuit_es.jar"
+    },
+    {
+        "title": "Soluciones de Azúcar y Sal",
+        "description": "¿Qué ocurre cuando el azúcar y la sal se agregan al agua? Vierte azúcar, agita en sal y evapora el agua para ver los efectos de la concentración y la conductividad. Haz un acercamiento para ver cómo el azúcar y diferentes compuestos de sal se disuelven. Acerca de nuevo para explorar la función del agua.",
+        "categorias": [
+            "Biología",
+            "Química"
+        ],
+        "screenshot": "sugar-and-salt-solutions-600.png",
+        "file": "sugar-and-salt-solutions_es.jar"
+    },
+    {
+        "title": "Semiconductores",
+        "description": "Agrega impurezas al semiconductor para crear un diodo. Ve el cambio de posición de los electrones y la energía.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "semiconductor-600.png",
+        "file": "semiconductor_es.jar"
+    },
+    {
+        "title": "Soluciones Ácido-Base",
+        "description": "¿Cuán diferentes son los ácidos fuertes y débiles? ¡Utiliza las herramientas en el laboratorio de computación para averiguarlo! Sumerge el papel o medidor en la solución para medir el pH, o usa los electrodos para medir la conductividad. Luego observa cómo la concentración y la fuerza afectan el pH ¿Puede una solución de un ácido débil tener el mismo pH que una solución de un ácido fuerte?",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Química"
+        ],
+        "screenshot": "acid-base-solutions-600.png",
+        "file": "acid-base-solutions_es.html"
+    },
+    {
+        "title": "Selección Natural",
+        "description": "Explora la selección natural al controlar el medio ambiente y causar mutaciones en los conejos.",
+        "categorias": [
+            "Biología"
+        ],
+        "screenshot": "natural-selection-600.png",
+        "file": "natural-selection_es.jar"
+    },
+    {
+        "title": "Resistencia en un alambre",
+        "description": "Aprende sobre la física de la resistencia en un alambre. Cambia su resistencia, longitud y área para ver cómo afecta a la resistencia del alambre.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Matemáticas"
+        ],
+        "screenshot": "resistance-in-a-wire-600.png",
+        "file": "resistance-in-a-wire_es.html"
+    },
+    {
+        "title": "Resonancia",
+        "description": "Para estudiantes avanzados: Observa la resonancia en una colección de osciladores armónicos impulsados y amortiguados. Varía la frecuencia y amplitud,  la constante de amortiguamiento, la masa y la constante del resorte de cada resonador. Observa la larga transición cuando el amortiguamiento es pequeño, y observa el cambio de fase de los resonadores encima y debajo de la resonancia.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "resonance-600.png",
+        "file": "resonance_es.jar"
+    },
+    {
+        "title": "Sales y Solubilidad",
+        "description": "Añade diferentes sales al agua, y luego ve que se disuelvan y logren un equilibrio dinámico con el precipitado sólido. Compara el número de iones en la solución de NaCl altamente soluble con otras sales poco solubles. Relaciona las cargas de los iones con el número de iones en la fórmula de una sal. Calcula los valores Ksp.",
+        "categorias": [
+            "Biología",
+            "Química"
+        ],
+        "screenshot": "soluble-salts-600.png",
+        "file": "soluble-salts_es.jar"
+    },
+    {
+        "title": "Revolución Mariquita",
+        "description": "Únete a la mariquita en una exploración del movimiento de rotación. Gira el carrusel para cambiar su ángulo o elegir una velocidad angular constante o la aceleración angular. Explora cómo el movimiento circular se relaciona con la posición x, y, la velocidad, y aceleración usando vectores o gráficos.",
+        "categorias": [
+            "Física",
+            "Matemáticas"
+        ],
+        "screenshot": "rotation-screenshot.png",
+        "file": "rotation_es.jar"
+    },
+    {
+        "title": "Regresión de mínimos cuadrados",
+        "description": "Crea tu propio diagrama de dispersión o utiliza datos del mundo real e intenta crear una linea de ajuste! Explora cómo los puntos de datos individuales afectan el coeficiente de correlación y línea de tendencia.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Matemáticas"
+        ],
+        "screenshot": "least-squares-regression-600.png",
+        "file": "least-squares-regression_es.html"
+    },
+    {
+        "title": "Reflexión y Refracción de la Luz",
+        "description": "Explora la curvatura de la luz entre dos medios con distintos índices de refracción. Ve cómo el cambiar de aire a agua y a vidrio cambia el ángulo de flexión. Juega con prismas de diferentes formas y crea arco iris.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física"
+        ],
+        "screenshot": "bending-light-600.png",
+        "file": "bending-light_es.html"
+    },
+    {
+        "title": "Razón unitaria",
+        "description": "Descubre la razón entre precio/cantidad mientras compras fruta, vegetales y dulces. Construye una doble línea numérica y busca patrones. ¡Desafíate a ti mismo  en la pista de carreras con la comparación de dos carros con diferentes razones de distancia/tiempo!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Matemáticas"
+        ],
+        "screenshot": "unit-rates-600.png",
+        "file": "unit-rates_es.html"
+    },
+    {
+        "title": "Reactivos, productos y excedentes",
+        "description": "Crea tu propio emparedado y luego ve como puedes hacer muchos emparedados con diferentes cantidades de ingredientes. Haz los mismo con reacciones químicas. Mira cuántos productos puedes hacer con diferentes cantidades de reactantes, productos y restos de comida ¿Puedes obtener una puntuación perfecta en cada nivel?",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Química"
+        ],
+        "screenshot": "reactants-products-and-leftovers-600.png",
+        "file": "reactants-products-and-leftovers_es.html"
+    },
+    {
+        "title": "Rampa: Fuerzas y movimiento",
+        "description": "Explora las fuerzas y el movimiento al empujar objetos domésticos de arriba a abajo por una rampa. Baja y sube la rampa para ver cómo el ángulo de inclinación afecta a las fuerzas paralelas. Los gráficos muestran las fuerzas, energía y trabajo.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "ramp-forces-and-motion-600.png",
+        "file": "ramp-forces-and-motion_es.jar"
+    },
+    {
+        "title": "La Rampa",
+        "description": "Explora las fuerzas, energía y trabajo al empujar objetos domésticos hacia arriba y abajo por una rampa. Baja y sube la rampa para ver cómo el ángulo de inclinación afecta a las fuerzas paralelas que actúan sobre el gabinete. Los gráficos muestran las fuerzas, energía y trabajo.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "the-ramp-600.png",
+        "file": "the-ramp_es.jar"
+    },
+    {
+        "title": "Reacciones reversibles",
+        "description": "Ve como procede una reacción con el tiempo ¿Cómo la energía total afecta la velocidad de reacción? Varía la temperatura, la altura de la barrera, y la energía potencial. Registra las concentraciones y el tiempo a fin de extraer los coeficientes de velocidad. Realiza estudios dependiente de la temperatura para extraer los parámetros de Arrhenius. Esta simulación funciona mejor con ayuda del docente ya que presenta una analogía de las reacciones químicas.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "reversible-reactions-600.png",
+        "file": "reversible-reactions_es.jar"
+    },
+    {
+        "title": "Radiación Alfa",
+        "description": "Observa cómo el escape de las partículas alfa del núcleo de polonio causan una desintegración alfa radioactiva. Ve cómo el tiempo de desintegración aleatoria se relaciona con la vida media.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "alpha-decay-600.png",
+        "file": "alpha-decay_es.jar"
+    },
+    {
+        "title": "Probabilidad Plinko",
+        "description": "Suelta pelotas a través de una malla triangular con estacas y ve cómo se acumulan en contenedores. Cambia a una vista de histograma y compara la distribución de pelotas para una distribución binomial perfecta. ¡Ajusta la probabilidad binomial y desarrolla tu conocimiento en estadística!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Matemáticas"
+        ],
+        "screenshot": "plinko-probability-600.png",
+        "file": "plinko-probability_es.html"
+    },
+    {
+        "title": "Propiedades del gas",
+        "description": "Bombea moléculas de gas en una caja y ve qué sucede a medida que cambias el volumen, añades o eliminas el calor, cambias la gravedad, y mucho más. Mide la temperatura y la presión, y descubre cómo las propiedades del gas varían en relación con lo demás.",
+        "categorias": [
+            "Física",
+            "Química",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "gas-properties-600.png",
+        "file": "gas-properties_es.jar"
+    },
+    {
+        "title": "Pozos Dobles y Enlaces Covalentes",
+        "description": "Explora la división de túneles en potenciales dobles. Este problema clásico describe muchos sistemas físicos, entre ellos enlaces covalentes, uniones Josephson, y dos sistemas de estado como las partículas espín 1 / 2  y las moléculas de amoníaco.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "covalent-bonds-600.png",
+        "file": "covalent-bonds_es.jar"
+    },
+    {
+        "title": "Presión del fluido y  flujo",
+        "description": "Explora la presión en la atmósfera y bajo el agua. Cambia la forma de un tubo para ver cómo cambia la velocidad de flujo de los fluidos. Experimenta con una torre de agua que chorrea para ver cómo la altura y el nivel de agua determinan la trayectoria del agua.",
+        "categorias": [
+            "Física",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "fluid-pressure-and-flow-screenshot.png",
+        "file": "fluid-pressure-and-flow_es.jar"
+    },
+    {
+        "title": "Polaridad de la Molécula",
+        "description": "¿Cuándo es una molécula polar? Cambia la electronegatividad de los átomos en una molécula para ver cómo afecta a la polaridad. Ve cómo se comporta la molécula en un campo eléctrico. Cambia el ángulo de enlace para ver cómo afecta a la forma de polaridad. Ve cómo funciona para las moléculas reales en 3D.",
+        "categorias": [
+            "Biología",
+            "Química"
+        ],
+        "screenshot": "molecule-polarity-600.png",
+        "file": "molecule-polarity_es.jar"
+    },
+    {
+        "title": "Pista de juego de proporciones",
+        "description": "Play with ratios and proportions by designing a necklace, throwing paint balloons, playing billiards, or shopping for apples! Make predictions about proportions before they are revealed.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Matemáticas"
+        ],
+        "screenshot": "proportion-playground-600.png",
+        "file": "proportion-playground_es.html"
+    },
+    {
+        "title": "Pista de patinar \"Energía\"",
+        "description": "¡Aprende acerca de la conservación de la energía con un patinador! Construye pistas, rampas y saltos para el patinador y ve la energía cinética, la energía potencial y la fricción a medida que se mueve. ¡También puedes poner al patinador en diferentes planetas o en el espacio!",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "energy-skate-park-screenshot.png",
+        "file": "energy-skate-park_es.jar"
+    },
+    {
+        "title": "Pinzas Ópticas Y Sus Aplicaciones",
+        "description": "¿Alguna vez imaginaste que podías utilizar la luz para mover un cordón de plástico microscópico? Explora las fuerzas sobre el cordón o lentamente ve la interacción con el campo eléctrico del láser. Usa las pinzas ópticas para manipular una sola hebra de ADN y explorar la física de los pequeños motores moleculares. ¿Se puede enderezar completamente el ADN o detener el motor molecular?",
+        "categorias": [
+            "Física",
+            "Biología"
+        ],
+        "screenshot": "optical-tweezers-600.png",
+        "file": "optical-tweezers_es.jar"
+    },
+    {
+        "title": "PhET Movimiento2D",
+        "description": "Prueba la nueva simulación \"Movimiento de Mariquita en 2D\" para la última versión actualizada. Aprende sobre vectores posición, velocidad, y aceleración. Mueve la bola con el mouse o deja que la simulación mueva la bola en 4 tipos de movimiento (2 tipos lineales, 1 armónico simple, 1 circular).",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "motion-2d-600.png",
+        "file": "motion-2d_es.jar"
+    },
+    {
+        "title": "Penetración Mecánico-Cuántica y Paquete de Ondas",
+        "description": "Mira el túnel de \"partículas\" cuánticas a través de las barreras. Explora las propiedades de las funciones de onda que describen estas partículas.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "quantum-tunneling-600.png",
+        "file": "quantum-tunneling_es.jar"
+    },
+    {
+        "title": "Parejas de Fracciones",
+        "description": "Enlaza las figuras y números para ganar estrellas en este juego de fracciones. Ponte a prueba en cualquier nivel que desees. ¡Trata de coleccionar muchas estrellas!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Matemáticas"
+        ],
+        "screenshot": "fraction-matcher-600.png",
+        "file": "fraction-matcher_es.html"
+    },
+    {
+        "title": "Onda en una cuerda",
+        "description": "¡Explora el increíble mundo de las ondas! Incluso observa una cuerda vibrar en cámara lenta. Mueve el extremo de la cuerda y crea ondas, o ajusta la frecuencia y amplitud de un oscilador.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Química",
+            "Ciencias de la Tierra",
+            "Matemáticas"
+        ],
+        "screenshot": "wave-on-a-string-600.png",
+        "file": "wave-on-a-string_es.html"
+    },
+    {
+        "title": "Ondas del radio",
+        "description": "Emite ondas de radio desde KPhET. Mueve el transmisor de electrones manualmente hazlo oscilar automáticamente. Muestra el campo como una curva o vectores. El gráfico de barras muestra las posiciones de electrones en el transmisor y en el receptor.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "radio-waves-600.png",
+        "file": "radio-waves_es.jar"
+    },
+    {
+        "title": "Ondas Acusticas",
+        "description": "Esta simulación te permite ver ondas de sonido. Ajusta la frecuencia o volumen y puedes ver y escuchar cómo cambian las ondas. Mueve el detector alrededor y escucha lo que oye.",
+        "categorias": [
+            "Física",
+            "Biología",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "sound-screenshot.png",
+        "file": "sound_es.jar"
+    },
+    {
+        "title": "Neurona",
+        "description": "Estimula una neurona y observa lo que sucede. Detente, rebobina y muévete en el tiempo para observar cómo los iones se mueven a través de la membrana de la neurona.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Biología"
+        ],
+        "screenshot": "neuron-600.png",
+        "file": "neuron_es.html"
+    },
+    {
+        "title": "MRI Simplificado",
+        "description": "¿Se trata de un tumor? Lo pueden confirmar las Imágenes por Resonancia Magnética (IRM). Tu cabeza está llena de pequeños transmisores de radio (los espines nucleares de los núcleos de hidrógeno de las moléculas de agua). En una unidad de resonancia magnética, estos pequeños radios pueden transmitir sus posiciones, dando una imagen detallada del interior de tu cabeza.",
+        "categorias": [
+            "Física",
+            "Biología",
+            "Química"
+        ],
+        "screenshot": "mri-screenshot.png",
+        "file": "mri_es.jar"
+    },
+    {
+        "title": "Movimiento de un Proyectil",
+        "description": "¡Lanza un coche desde un cañón! Aprende sobre el movimiento de proyectiles disparando varios objetos. Ajusta la velocidad angular, inicial, y la masa. Agrega la resistencia del aire. Haz de un juego a esta simulación tratando de alcanzar el objetivo.",
+        "categorias": [
+            "Física",
+            "Matemáticas"
+        ],
+        "screenshot": "projectile-motion-600.png",
+        "file": "projectile-motion_es.jar"
+    },
+    {
+        "title": "Movimiento de Mariquita en 2D",
+        "description": "Aprende de los vectores de posición, velocidad y aceleración. Mueve la mariquita estableciendo la posición, velocidad o aceleración, y ve cómo cambian los vectores. Elije un movimiento lineal, circular o elíptico, y graba y reproduce el movimiento para analizar el comportamiento.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "ladybug-motion-2d-600.png",
+        "file": "ladybug-motion-2d_es.jar"
+    },
+    {
+        "title": "Motores Moleculares",
+        "description": "Descubre lo que controla la velocidad en que diminutos motores moleculares en nuestro cuerpo tiran de una única hebra de ADN. ¿Qué tan fuerte puede jalar el motor en un tira y afloja con las pinzas ópticas? Descubre lo que te ayuda a jalar más ¿Todos los motores moleculares se comportan igual?",
+        "categorias": [
+            "Física",
+            "Biología"
+        ],
+        "screenshot": "molecular-motors-600.png",
+        "file": "molecular-motors_es.jar"
+    },
+    {
+        "title": "Molaridad",
+        "description": "¿Qué determina la concentración de una solución? Aprende sobre las relaciones entre moles, litros, y molaridad mediante el ajuste de la cantidad de soluto y el volumen de solución. Cambia los solutos para comparar diferentes químicos en el agua.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Química"
+        ],
+        "screenshot": "molarity-600.png",
+        "file": "molarity_es.html"
+    },
+    {
+        "title": "Moléculas y luz",
+        "description": "¿Te has preguntado alguna vez cómo un gas de efecto invernadero afecta al clima, o por qué la capa de ozono es importante? Utiliza el simulador para explorar cómo la luz interactúa con las moléculas de nuestra atmósfera.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Química",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "molecules-and-light-600.png",
+        "file": "molecules-and-light_es.html"
+    },
+    {
+        "title": "Modelo de Partículas Auto-impulsadas (DSWeb)",
+        "description": "Aprende cómo el manejo simple de leyes de sistemas dinámicos pueden producir comportamientos dinámicos complejos, como las transiciones de fase de segundo orden, la criticidad y la agrupación. Esta simulación te guiará a través de un tutorial que presenta el modelo gradualmente y representa el cálculo del parámetro de orden, los parámetros más importantes y el exponente crítico.",
+        "categorias": [],
+        "screenshot": "self-driven-particle-model-600.png",
+        "file": "self-driven-particle-model_es.jar"
+    },
+    {
+        "title": "Modelos del Átomo del Hidrógeno",
+        "description": "¿Cómo los científicos determinan la estructura de los átomos, sin mirarlos? Prueba los diferentes modelos mediante el disparo de luz en el átomo. Comprueba cómo la predicción del modelo coincide con los resultados experimentales.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "hydrogen-atom-600.png",
+        "file": "hydrogen-atom_es.jar"
+    },
+    {
+        "title": "Mi Sistema Solar",
+        "description": "Construye tu propio sistema de cuerpos celestes y ve el ballet gravitacional. Con este simulador de órbita puedes establecer posiciones iniciales, las velocidades y masas de 2, 3, ó 4 cuerpos y luego verlos que orbitar.",
+        "categorias": [
+            "Física",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "my-solar-system-600.png",
+        "file": "my-solar-system_es.jar"
+    },
+    {
+        "title": "La Máquina de Genes: El Operón Lac",
+        "description": "¡Construye una red de genes! El operón lac es un conjunto de genes que son responsables del metabolismo de la lactosa en algunas células bacterianas. Explora los efectos de las mutaciones en el operón lac añadiendo o eliminando genes del ADN.",
+        "categorias": [
+            "Biología"
+        ],
+        "screenshot": "gene-machine-lac-operon-600.png",
+        "file": "gene-machine-lac-operon_es.jar"
+    },
+    {
+        "title": "Microondas",
+        "description": "¿Cómo las microondas calientan el café? Ajuste la frecuencia y la amplitud de las microondas. Mira las moléculas de agua girando y saltando alrededor. Ve el campo de microondas como una onda, una sola línea de vectores, o todo el campo.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "microwaves-600.png",
+        "file": "microwaves_es.jar"
+    },
+    {
+        "title": "Ley de Ohm",
+        "description": "Ve cómo la forma de la ecuación de la ley de Ohm se relaciona con un circuito simple. <br>Ajuste el voltaje y la resistencia y ve el cambio de corriente de acuerdo<br>con la ley de Ohm.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Matemáticas"
+        ],
+        "screenshot": "ohms-law-600.png",
+        "file": "ohms-law_es.html"
+    },
+    {
+        "title": "Luces de Neón y otras Lámparas de Descarga",
+        "description": "Produce luz bombardeando átomos con electrones. Ve cómo los espectros característicos de diferentes elementos son producidos, y configura los estados de energía de tu propio elemento para producir luz de diferentes colores.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "discharge-lamps-screenshot.png",
+        "file": "discharge-lamps_es.jar"
+    },
+    {
+        "title": "Ley de Ohm",
+        "description": "Mira el interior de la resistencia para ver cómo funciona. Incrementa el voltaje de la batería para hacer que más electrones fluyan a través de la resistencia. Incrementa la resistencia para bloquear el flujo de electrones. Observa los cambios de temperatura actual de la resistencia.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "battery-resistor-circuit-600.png",
+        "file": "battery-resistor-circuit_es.jar"
+    },
+    {
+        "title": "Ley de equilibrio",
+        "description": "Juega con objetos en un balancín para aprender sobre equilibrio. Pon a prueba lo que has aprendido con el juego Ley de Equilibrio.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Matemáticas"
+        ],
+        "screenshot": "balancing-act-600.png",
+        "file": "balancing-act_es.html"
+    },
+    {
+        "title": "Ley de Hooke",
+        "description": "¡Estira y comprime los resortes para explorar las relaciones entre la fuerza, constante del resorte, el desplazamiento y la energía potencial! Investiga lo que ocurre cuando dos resortes están conectados en serie y en paralelo.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física"
+        ],
+        "screenshot": "hookes-law-600.png",
+        "file": "hookes-law_es.html"
+    },
+    {
+        "title": "Ley de Faraday",
+        "description": "¡Investiga la Ley de Faraday y cómo el cambiar el flujo magnético puede producir un flujo de electricidad!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física"
+        ],
+        "screenshot": "faradays-law-600.png",
+        "file": "faradays-law_es.html"
+    },
+    {
+        "title": "Lasers",
+        "description": "Crea un láser mediante el bombeo de la cámara con un haz de fotones. Maneja los estados de energía de los átomos del láser para controlar su producción.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "lasers-screenshot.png",
+        "file": "lasers_es.jar"
+    },
+    {
+        "title": "Laboratorio electromágnetico de Faraday",
+        "description": "Juega con una barra de imán y bobinas para aprender sobre la ley de Faraday. Mueve un imán cerca de una o dos bobinas para hacer que una bombilla se encienda. Ve las líneas de campo magnético. Un medidor muestra la dirección y la magnitud de la corriente. Ve las líneas de campo magnético o usa un medidor para mostrar la dirección y la magnitud de la corriente. ¡También se puede jugar con electroimanes, generadores y transformadores eléctricos!",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "faraday-screenshot.png",
+        "file": "faraday_es.jar"
+    },
+    {
+        "title": "Laboratorio de la ley de Beer",
+        "description": "\"Cuanto más grueso sea el vidrio y más oscura sea la infusión, menos luz pasará a través de él\". ¡Haz coloridas soluciones concentradas y diluidas y explora cuánta luz absorben y transmiten usando un espectrofotómetro virtual!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Química"
+        ],
+        "screenshot": "beers-law-lab-600.png",
+        "file": "beers-law-lab_es.html"
+    },
+    {
+        "title": "Laboratorio de Resortes y Masa",
+        "description": "Una masa real y un laboratorio de resortes. Cuelga masas en los resortes y ajusta la rigidez del resorte y el amortiguador. Incluso puedes ralentizar el tiempo. Transporta el laboratorio a diferentes planetas. Un gráfico muestra la energía cinética, potencial y térmica para cada resorte.",
+        "categorias": [
+            "Física",
+            "Matemáticas"
+        ],
+        "screenshot": "mass-spring-lab-600.png",
+        "file": "mass-spring-lab_es.jar"
+    },
+    {
+        "title": "Laboratorio de Péndulo",
+        "description": "Juega con uno o dos péndulos y descubre cómo el período de un péndulo simple depende de la longitud de la cadena, la masa del péndulo y la amplitud de la oscilación. Es fácil medir el período de uso del temporizador fotopuerta. Se puede variar la fricción y la fuerza de la gravedad. Utiliza el péndulo para encontrar el valor de g en el planeta X. Observa el comportamiento anarmónico a gran amplitud.",
+        "categorias": [
+            "Física",
+            "Matemáticas"
+        ],
+        "screenshot": "pendulum-lab-600.png",
+        "file": "pendulum-lab_es.jar"
+    },
+    {
+        "title": "Laboratorio de Fuerza de Gravedad",
+        "description": "Visualiza el fuerza de la gravedad que dos objetos ejercen entre sí. Cambia las propiedades de los objetos con el fin de ver cómo el cambiar las propiedades afecta la atracción gravitacional.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "gravity-force-lab-600.png",
+        "file": "gravity-force-lab_es.html"
+    },
+    {
+        "title": "Laboratorio de capacitores",
+        "description": "¡Explora cómo funciona un condensador! Cambia el tamaño de las placas y añade un dieléctrico para ver cómo afecta la capacidad eléctrica. Cambia el voltaje y ve las cargas que se acumulan en las placas. La simulación muestra el campo eléctrico en el condensador y mide el campo de tensión y energía eléctrica.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "capacitor-lab-600.png",
+        "file": "capacitor-lab_es.jar"
+    },
+    {
+        "title": "Laboratorio de Colisiones",
+        "description": "Usa una mesa de hockey de aire para investigar colisiones simples en 1D y más colisiones complejas en 2D. Experimenta con el número de discos, masas, y condiciones iniciales. Varía la elasticidad y ve cómo la dinámica total y la energía cinética cambian durante las colisiones.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "collision-lab-600.png",
+        "file": "collision-lab_es.jar"
+    },
+    {
+        "title": "Kit de construccion de circuitos (sólo CC), Laboratorio Virtual",
+        "description": "Construye circuitos con resistencias, bombillas, baterías e interruptores y realiza mediciones con equipos de laboratorio como el amperímetro y el voltímetro de manera realista.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "circuit-construction-kit-dc-virtual-lab-600.png",
+        "file": "circuit-construction-kit-dc-virtual-lab_es.jar"
+    },
+    {
+        "title": "Kit de construccion de circuitos (sólo CC)",
+        "description": "¡Un kit de electrónica en tu computadora! Construye circuitos con resistencias, bombillas, baterías e interruptores. Realiza mediciones con el amperímetro y el voltímetro de manera realista. Ve el circuito como un diagrama esquemático, o cambia a una vista realista.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "circuit-construction-kit-dc-screenshot.png",
+        "file": "circuit-construction-kit-dc_es.jar"
+    },
+    {
+        "title": "Kit de construccion de circuitos (CA y CC), Laboratorio Virtual",
+        "description": "Construye circuitos con condensadores, bobinas, resistencias y fuentes de tensión de AC o DC, e inspecciónalos utilizando instrumentos de laboratorio tales como voltímetros y amperímetros.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "circuit-construction-kit-ac-virtual-lab-600.png",
+        "file": "circuit-construction-kit-ac-virtual-lab_es.jar"
+    },
+    {
+        "title": "Juego de Laberinto",
+        "description": "Aprende acerca de la posición, velocidad y aceleración en la \"Arena del Dolor\". Usa la flecha verde para mover el balón. Agrega más paredes a la arena para hacer el juego más difícil. Trata de hacer un gol tan rápido como sea posible.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "maze-game-600.png",
+        "file": "maze-game_es.jar"
+    },
+    {
+        "title": "Kit de construccion de circuitos (CA y CC)",
+        "description": "¡Esta nueva versión de CCK añade condensadores, bobinas y fuentes de voltaje de CA a la caja de herramientas! Ahora puedes graficar la corriente y el voltaje en función del tiempo",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "circuit-construction-kit-ac-600.png",
+        "file": "circuit-construction-kit-ac_es.jar"
+    },
+    {
+        "title": "Isotopos y Masa Atómica",
+        "description": "¿Todos los átomos de un elemento son iguales? Cómo puedes diferenciar un isótopo de otro? Utiliza el simulador para aprender acerca de los isótopos y cómo la abundancia se relaciona con la masa atómica promedio de un elemento.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Química"
+        ],
+        "screenshot": "isotopes-and-atomic-mass-600.png",
+        "file": "isotopes-and-atomic-mass_es.html"
+    },
+    {
+        "title": "Juego de Datación Radioactiva",
+        "description": "Aprende acerca de los diferentes tipos de datación radiométrica, tal como la datación por carbono. Entiende cómo la descomposición y vida media funcionan para permitir la datación radiométrica. El juego pone a prueba tu capacidad para hacer coincidir el porcentaje del elemento de datación que se mantiene a la edad del objeto.",
+        "categorias": [
+            "Física",
+            "Biología",
+            "Química",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "radioactive-dating-game-600.png",
+        "file": "radioactive-dating-game_es.jar"
+    },
+    {
+        "title": "Introducción a las fracciones",
+        "description": "¡Explora las fracciones mientras te comes 1/3 pastel de chocolate con 1/2 vaso de jugo de naranja! Crea tus propias fracciones usando divertidos objetos interactivos. Haz coincidir formas y números para ganar estrellas en los juegos de fracciones. Ponte a prueba en cualquier nivel que desees. ¡Trata de coleccionar muchas estrellas!",
+        "categorias": [
+            "Matemáticas"
+        ],
+        "screenshot": "fractions-intro-600.png",
+        "file": "fractions-intro_es.jar"
+    },
+    {
+        "title": "Interferencia de Onda Cuántica",
+        "description": "¿Cuándo los fotones, electrones y átomos se comportan como partículas y cuando se comportan como ondas? Observa las ondas que salen e interfieren a medida que pasan a través de una doble rendija, a continuación detéctalos en una pantalla como pequeños puntos. Usa detectores cuánticos para explorar cómo las medidas cambian las ondas y los patrones que producen en la pantalla.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "quantum-wave-interference-600.png",
+        "file": "quantum-wave-interference_es.jar"
+    },
+    {
+        "title": "Interacciones Atómicas",
+        "description": "Explora las interacciones entre varias combinaciones de dos átomos. Observa la fuerza total actuando en los átomos o la fuerza atractiva o repulsiva por separado. Personaliza la atracción para ver cómo la interacción se ve afectada al cambiar el diámetro atómico y la fuerza de interacción.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Química"
+        ],
+        "screenshot": "atomic-interactions-600.png",
+        "file": "atomic-interactions_es.html"
+    },
+    {
+        "title": "Interferencia De la Onda",
+        "description": "¡Haz ondas con un grifo que gotea, altavoces, o un láser! Añade una segunda fuente o un par de rendijas para crear un patrón de interferencia.",
+        "categorias": [
+            "Física",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "wave-interference-600.png",
+        "file": "wave-interference_es.jar"
+    },
+    {
+        "title": "Imán y Brújula",
+        "description": "Alguna vez te preguntaste cómo una brújula trabaja para señalar el Ártico? ¡Explora las interacciones entre una brújula y un imán de barra, luego añade la tierra y encuentra la sorprendente respuesta! Varía la fuerza del imán, y ve cómo cambian las cosas tanto dentro como fuera. Usa el medidor de campo para medir los cambios del campo magnético.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "magnet-and-compass-600.png",
+        "file": "magnet-and-compass_es.jar"
+    },
+    {
+        "title": "Imanes y Electroimanes",
+        "description": "Explora las interacciones entre una brújula y un imán de barra. ¡Descubre cómo puedes usar una batería y un alambre para hacer un imán! ¿Se puede hacer un imán más fuerte? ¿Se puede invertir el campo magnético?",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "magnets-and-electromagnets-600.png",
+        "file": "magnets-and-electromagnets_es.jar"
+    },
+    {
+        "title": "Haz un Diez",
+        "description": "Suma números creando dieces. Separa y combina números prestando atención en el valor del lugar que ocupan. Usa la ventana de Suma y suma cualquier par de números. Usa la ventana de Modo Juego para aplicar tu estrategia de ¡Haz un Diez!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Matemáticas"
+        ],
+        "screenshot": "make-a-ten-600.png",
+        "file": "make-a-ten_es.html"
+    },
+    {
+        "title": "El Hombre Móvil",
+        "description": "Aprende sobre los gráficos de posición, velocidad, aceleración. Mueve el pequeño hombre de ida y vuelta con el ratón y traza su movimiento. Fija la posición, velocidad o aceleración, y deja que la simulación mueva al hombre hacia ti.",
+        "categorias": [
+            "Física",
+            "Matemáticas"
+        ],
+        "screenshot": "moving-man-600.png",
+        "file": "moving-man_es.jar"
+    },
+    {
+        "title": "Hockey Electrico",
+        "description": "Juega hockey con cargas eléctricas. Coloca las cargas sobre el hielo, luego haga clic en inicio para tratar de hacer un gol. Mira el campo eléctrico. Rastrea el movimiento del disco. Haz el juego más difícil poniendo paredes en frente de la meta. Esta es una copia de una simulación popular del mismo nombre comercializado por \"Physics Academic Software\" y escrito por el Prof. Ruth Chabay del Departamento de Física de la Universidad del Estado de Carolina del Norte.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "electric-hockey-600.png",
+        "file": "electric-hockey_es.jar"
+    },
+    {
+        "title": "Gravedad y Órbitas",
+        "description": "Mueve el sol, la tierra, la luna y la estación espacial para ver cómo afecta sus fuerzas gravitatorias y trayectorias orbitales. ¡Visualiza los tamaños y las distancias entre los diferentes cuerpos celestes y desactiva la gravedad para ver lo que pasaría sin ésta!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "gravity-and-orbits-600.png",
+        "file": "gravity-and-orbits_es.html"
+    },
+    {
+        "title": "Graficando Rectas",
+        "description": "Explora el mundo de las líneas. Investiga las relaciones entre las ecuaciones lineales, pendiente, y gráficos de líneas. ¡Ponte a prueba en el juego de la línea!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Matemáticas"
+        ],
+        "screenshot": "graphing-lines-600.png",
+        "file": "graphing-lines_es.html"
+    },
+    {
+        "title": "Graficador de Cálculo",
+        "description": "Dibuja una gráfica de cualquier función y ve los gráficos de su derivada e integral. No olvides usar los controles de agrandar/reducir del eje \"y\" para ajustar la escala.",
+        "categorias": [
+            "Física",
+            "Matemáticas"
+        ],
+        "screenshot": "calculus-grapher-600.png",
+        "file": "calculus-grapher_es.jar"
+    },
+    {
+        "title": "Globos y flotación",
+        "description": "Experimenta con un globo de helio, un globo con aire caliente, o una esfera rígida llenada con diferentes gases. Descubre lo que hace que algunos globos floten y otros no.",
+        "categorias": [
+            "Física",
+            "Química",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "balloons-and-buoyancy-600.png",
+        "file": "balloons-and-buoyancy_es.jar"
+    },
+    {
+        "title": "Glaciares",
+        "description": "Ajusta la nevada y la temperatura para ver cómo el glaciar crece y se contrae. Utiliza herramientas científicas para medir el grosor, la velocidad y acumulación glaciar.",
+        "categorias": [
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "glaciers-600.png",
+        "file": "glaciers_es.jar"
+    },
+    {
+        "title": "Globos y electricidad estática",
+        "description": "¿Por qué los globos se pegan a tu ropa? ¡Explora las cargas en tu ropa, los globos y la pared mientras investigas!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Química",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "balloons-and-static-electricity-600.png",
+        "file": "balloons-and-static-electricity_es.html"
+    },
+    {
+        "title": "Generador de funciones: basicos",
+        "description": "Play with functions while you ponder Art History. Look for patterns, then apply what you learned on the Mystery screen!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Matemáticas"
+        ],
+        "screenshot": "function-builder-basics-600.png",
+        "file": "function-builder-basics_es.html"
+    },
+    {
+        "title": "geometric-optics",
+        "description": "¿Cómo se forma una imagen en una lente? Ve cómo los rayos de luz son refractados por una lente. Observa cómo la imagen cambia cuando se ajusta la distancia focal de la lente, mueve el objeto, mueve la lente, o mueve la pantalla.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "geometric-optics-600.png",
+        "file": "geometric-optics_es.jar"
+    },
+    {
+        "title": "Generador",
+        "description": "¡Genera electricidad con una barra de imán! Descubre la física detrás de los fenómenos mediante la exploración de los imanes y cómo se pueden utilizar para hacer una bombilla.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "generator-600.png",
+        "file": "generator_es.jar"
+    },
+    {
+        "title": "Fuerzas y Movimiento: Fundamentos",
+        "description": "Explora las fuerzas que actúan al tirar de un carro o empujar un refrigerador, caja, o una persona. Crea una fuerza aplicada y ve cómo hace que se muevan los objetos. Cambia la fricción y observa cómo afecta el movimiento de los objetos.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física"
+        ],
+        "screenshot": "forces-and-motion-basics-600.png",
+        "file": "forces-and-motion-basics_es.html"
+    },
+    {
+        "title": "Generador de Funciones",
+        "description": "Juega con funciones mientras reflexionas sobre la Historia del Arte. Explora transformaciones geométricas y cambia tu pensamiento con respecto a las funciones lineares ¡luego diviértete descubriendo las funciones misteriosas!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Matemáticas"
+        ],
+        "screenshot": "function-builder-600.png",
+        "file": "function-builder_es.html"
+    },
+    {
+        "title": "Fuerzas y movimiento",
+        "description": "Explora las fuerzas en el trabajo cuando tratas de empujar un gabinete. Crea una fuerza aplicada y ve la fuerza de fricción resultante y la fuerza total que actúa sobre el gabinete. Los gráficos muestran la fuerza, posición, velocidad y aceleración en función del tiempo. Ve un diagrama de cuerpo libre de todas las fuerzas (incluyendo las fuerzas gravitatorias y normales).",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "forces-and-motion-screenshot.png",
+        "file": "forces-and-motion_es.jar"
+    },
+    {
+        "title": "Fuerzas en 1 Dimensión",
+        "description": "Explora las fuerzas en el trabajo cuando tratas de empujar un gabinete. Crea una fuerza aplicada y ve la fuerza de fricción resultante y la fuerza total que actúa sobre el gabinete. Los gráficos muestran la fuerza, posición, velocidad y aceleración en función del tiempo. Ve un diagrama de cuerpo libre de todas las fuerzas (incluyendo las fuerzas gravitatorias y normales).",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "forces-1d-600.png",
+        "file": "forces-1d_es.jar"
+    },
+    {
+        "title": "Frecuencias resonantes.",
+        "description": "Juega con un sistema en 1D o 2D de resortes osciladores acoplados. Varía el número de masas, ajusta las condiciones iniciales, y observa que el sistema evolucione. Ve todo el espectro de  frecuencias resonantes del movimiento arbitrario. Ve las frecuencias longitudinales y transversales en el sistema en 1D.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "normal-modes-600.png",
+        "file": "normal-modes_es.jar"
+    },
+    {
+        "title": "Fricción",
+        "description": "Aprende cómo la fricción causa que un material se caliente y se funda ¿Qué pasa a nivel atómico cuando se frotan dos objetos entre sí?",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física"
+        ],
+        "screenshot": "friction-600.png",
+        "file": "friction_es.html"
+    },
+    {
+        "title": "Fourier: Fabricacion de Ondas",
+        "description": "Aprende cómo hacer ondas de todas las formas añadiendo senos o cosenos. Crea ondas en el espacio y el tiempo y mide sus longitudes de onda y periodos Ve cómo el cambiar las amplitudes de diferentes armónicos cambia las ondas. Compara las diferentes expresiones matemáticas de las ondas.",
+        "categorias": [
+            "Física",
+            "Química",
+            "Matemáticas"
+        ],
+        "screenshot": "fourier-600.png",
+        "file": "fourier_es.jar"
+    },
+    {
+        "title": "Forma de la Molécula",
+        "description": "¡Explora las formas moleculares mediante la construcción de moléculas en 3D! ¿Cómo cambia la forma molecular con números diferentes de enlaces y pares de electrones? Descúbrelo mediante la adición de enlaces simples, dobles o triples y pares solitarios al átomo central. ¡Luego compara el modelo con moléculas reales!.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Química"
+        ],
+        "screenshot": "molecule-shapes-600.png",
+        "file": "molecule-shapes_es.html"
+    },
+    {
+        "title": "Flotabilidad",
+        "description": "¿Cuándo flotarán o no los objetos? Aprende cómo funciona la flotabilidad con bloques. Las flechas muestran las fuerzas aplicadas y puedes modificar las propiedades de los bloques y el fluido.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "buoyancy-600.png",
+        "file": "buoyancy_es.jar"
+    },
+    {
+        "title": "Formas de la molécula: Conceptos básicos",
+        "description": "¡Explora las formas de la molécula mediante la construcción de moléculas en 3D! Descubre cómo la forma de una molécula cambia a medida que se le agrega átomos.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Química"
+        ],
+        "screenshot": "molecule-shapes-basics-600.png",
+        "file": "molecule-shapes-basics_es.html"
+    },
+    {
+        "title": "Fisión Nuclear",
+        "description": "Inicia una reacción en cadena, o introduce isótopos no radiactivos para prevenirla. ¡Controla la producción de energía en un reactor nuclear! (Antes era parte de la simulación Física nuclear, ahora hay simulaciones de Desintegración Alpha y Fisión Nuclear por separado).",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "nuclear-fission-600.png",
+        "file": "nuclear-fission_es.jar"
+    },
+    {
+        "title": "Expresión génica - Fundamentos",
+        "description": "¡Exprésate a través de tus genes! Ve puedes generar y recoger tres tipos de proteínas, luego pasa a explorar los factores que afectan la síntesis de proteínas en una célula.",
+        "categorias": [
+            "Biología"
+        ],
+        "screenshot": "gene-expression-basics-600.png",
+        "file": "gene-expression-basics_es.jar"
+    },
+    {
+        "title": "Experimento Davisson-Germer",
+        "description": "Simula el experimento original que demostró que los electrones pueden comportarse como ondas. Mira que los electrones se difractan en un cristal de átomos, interfiriéndose entre ellos para crear picos y valles de probabilidad.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "davisson-germer-600.png",
+        "file": "davisson-germer_es.jar"
+    },
+    {
+        "title": "Estructura de Bandas",
+        "description": "Explora el origen de las bandas de energía en los cristales de los átomos. La estructura de estas bandas determina cómo los materiales conducen la electricidad.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "band-structure-600.png",
+        "file": "band-structure_es.jar"
+    },
+    {
+        "title": "Experimento de Stern-Gerlach",
+        "description": "El clásico experimento de Stern-Gerlach muestra que los átomos tienen una propiedad llamada espín. El espín es un tipo de momento angular intrínseco, el cual no tiene una contraparte clásica. Cuando el componente-z de un espín es medido, uno siempre logra uno de dos valores: espín-up o espín-down",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "stern-gerlach-600.png",
+        "file": "stern-gerlach_es.jar"
+    },
+    {
+        "title": "Estirar la DNA",
+        "description": "Explora el estiramiento en una hebra de ADN utilizando pinzas ópticas o el flujo de fluidos. Experimenta con las fuerzas implicadas y mide la relación entre la longitud del ADN estirado y la fuerza necesaria para mantenerlo estirado. ¿El ADN se parece más a una cuerda o a un resorte?",
+        "categorias": [
+            "Física",
+            "Biología"
+        ],
+        "screenshot": "stretching-dna-600.png",
+        "file": "stretching-dna_es.jar"
+    },
+    {
+        "title": "Estimación",
+        "description": "¡Explora la estimación del tamaño en una, dos y tres dimensiones! Los múltiples niveles de dificultad permiten una mejora progresiva de la habilidad.",
+        "categorias": [
+            "Matemáticas"
+        ],
+        "screenshot": "estimation-600.png",
+        "file": "estimation_es.jar"
+    },
+    {
+        "title": "Estados Ligados Cuánticos",
+        "description": "Explora las propiedades de las \"partículas\" cuánticas ligadas en los pozos de potencial. Ve cómo evolucionan (o no evolucionan) a través del tiempo las funciones de onda y la densidad de probabilidad que las describen.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "bound-states-600.png",
+        "file": "bound-states_es.jar"
+    },
+    {
+        "title": "Estados de la Materia: Fundamentos",
+        "description": "Calienta, enfría y comprime los átomos y moléculas y ve cómo cambian entre sólido, líquido y fases gaseosas.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Química"
+        ],
+        "screenshot": "states-of-matter-basics-600.png",
+        "file": "states-of-matter-basics_es.html"
+    },
+    {
+        "title": "Estados de la materia",
+        "description": "Mira los diferentes tipos de moléculas que forman un sólido, líquido o gas. Agrega o elimina el calor y ve el cambio de fase. Cambia la temperatura o el volumen de un contenedor y ve un diagrama de presión-temperatura cambiar en tiempo real. Relaciona el potencial de interacción de las fuerzas entre las moléculas.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Química"
+        ],
+        "screenshot": "states-of-matter-600.png",
+        "file": "states-of-matter_es.html"
+    },
+    {
+        "title": "Espectro del Cuerpo Negro",
+        "description": "¿Cómo funciona el espectro de cuerpo negro del Sol en comparación con la luz visible? Aprende sobre el espectro de cuerpo negro del sol, una bombilla, un horno, y la tierra. Ajusta la temperatura para ver la longitud de onda y la intensidad de los cambios del espectro. Ve el color del pico de la curva espectral.",
+        "categorias": [
+            "Física",
+            "Biología",
+            "Química",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "blackbody-spectrum-600.png",
+        "file": "blackbody-spectrum_es.jar"
+    },
+    {
+        "title": "Escala pH: básicos",
+        "description": "Prueba el pH de los líquidos del día a día, como el café, saliva, y jabón para determinar si son ácidos, básicos o neutros. Investiga cómo el adicionar más de un líquido o diluirlo con agua afecta el pH.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Química"
+        ],
+        "screenshot": "ph-scale-basics-600.png",
+        "file": "ph-scale-basics_es.html"
+    },
+    {
+        "title": "Escala de pH",
+        "description": "Prueba el pH de las cosas, como café, saliva, y jabón para determinar si cada uno es ácido, básico o neutro. Visualiza el número relativo de iones de hidróxido e iones de hidrógeno en la solución. Cambia entre las escalas logarítmicas y lineales. Investiga si el cambio del volumen o la dilución con agua afecta el pH. ¡O puedes diseñar tu propio líquido!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Biología",
+            "Química",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "ph-scale-600.png",
+        "file": "ph-scale_es.html"
+    },
+    {
+        "title": "Energía en la pista de patinaje: conceptos básicos",
+        "description": "¡Aprende sobre conservación de la energía con un patinador! Explora las diferentes pistas y ve la energía cinética, la energía potencial y la fricción a medida que se mueve. Construye tus propias pistas, rampas y saltos para el patinador.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física"
+        ],
+        "screenshot": "energy-skate-park-basics-600.png",
+        "file": "energy-skate-park-basics_es.html"
+    },
+    {
+        "title": "equation-grapher",
+        "description": "Aprende acerca de los gráficos polinomiales. La forma de la curva cambia cuando las constantes se ajustan. Ve las curvas para los términos individuales (por ejemplo, y = bx) y ve cómo se añaden para generar la curva polinómica.",
+        "categorias": [
+            "Matemáticas"
+        ],
+        "screenshot": "equation-grapher-600.png",
+        "file": "equation-grapher_es.jar"
+    },
+    {
+        "title": "El Efecto Fotoeléctrico",
+        "description": "Ve cómo la luz golpea los electrones de un objeto metálico, y recrea el experimento que dio origen al campo de la mecánica cuántica.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "photoelectric-600.png",
+        "file": "photoelectric_es.jar"
+    },
+    {
+        "title": "Dispersión de Rutherford",
+        "description": "¿Cómo Rutherford averiguó la estructura del átomo sin ser capaz de verlo? Simula el famoso experimento en el que se refutó el modelo de Pudín de Ciruela del átomo mediante la observación de las partículas alfa rebotando en los átomos y se determinó que debía tener un pequeño núcleo.",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Química"
+        ],
+        "screenshot": "rutherford-scattering-600.png",
+        "file": "rutherford-scattering_es.html"
+    },
+    {
+        "title": "El Efecto de Invernadero",
+        "description": "¿Cómo afectan los gases de efecto invernadero al clima? Explora la atmósfera durante la era glacial y en la actualidad ¿Qué sucede cuando se agregan las nubes? Cambia la concentración gases de efecto invernadero y ve cómo cambia la temperatura. A continuación, compara el efecto de los cristales. Haz un acercamiento y ve cómo la luz interactúa con las moléculas ¿Todos los gases de la atmósfera contribuyen al efecto invernadero?",
+        "categorias": [
+            "Física",
+            "Química",
+            "Ciencias de la Tierra"
+        ],
+        "screenshot": "greenhouse-600.png",
+        "file": "greenhouse_es.jar"
+    },
+    {
+        "title": "Desintegración Beta",
+        "description": "Ve la desintegración beta que ocurre para un conjunto de núcleos o un núcleo individual.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "beta-decay-600.png",
+        "file": "beta-decay_es.jar"
+    },
+    {
+        "title": "Densidad",
+        "description": "¿Por qué los objetos como la madera flotan en el agua? ¿Depende del tamaño? Crea un objeto personalizado para explorar los efectos de la masa y el volumen sobre la densidad. ¿Puedes descubrir la relación? Utiliza la escala para medir la masa de un objeto, a continuación, mantén el objeto bajo el agua para medir su volumen. ¿Puedes identificar todos los objetos misteriosos?",
+        "categorias": [
+            "Física",
+            "Biología",
+            "Química"
+        ],
+        "screenshot": "density-600.png",
+        "file": "density_es.jar"
+    },
+    {
+        "title": "Construye un Átomo",
+        "description": "Construye un átomo con protones, neutrones y electrones, y ve cómo cambian el elemento, la carga y la masa. ¡Luego, juega para probar tus ideas!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física",
+            "Química"
+        ],
+        "screenshot": "build-an-atom-600.png",
+        "file": "build-an-atom_es.html"
+    },
+    {
+        "title": "Construye una molécula",
+        "description": "Partiendo de átomos, ve cómo puedes construir muchas moléculas. ¡Reúne tus moléculas y míralas en 3D!",
+        "categorias": [
+            "Química"
+        ],
+        "screenshot": "build-a-molecule-600.png",
+        "file": "build-a-molecule_es.jar"
+    },
+    {
+        "title": "Crear una fracción",
+        "description": "Construye fracciones procedentes de gráficos y números para ganar estrellas en este juego de fracciones o explora en el Laboratorio de Fracciones. Ponte a prueba en cualquier nivel que desees. ¡Trata de recoger muchas estrellas!",
+        "categorias": [
+            "Matemáticas"
+        ],
+        "screenshot": "build-a-fraction-600.png",
+        "file": "build-a-fraction_es.jar"
+    },
+    {
+        "title": "Control Óptico De Quantum",
+        "description": "Explora un área activa de investigación en física óptica: produciendo formas de pulso diseñados para lograr fines específicos, tal como separar una molécula. Con cuidado, crea la forma de pulso perfecta para romper una molécula de forma individual por la manipulación de los colores de la luz que conforman el pulso.",
+        "categorias": [],
+        "screenshot": "optical-quantum-control-600.png",
+        "file": "optical-quantum-control_es.jar"
+    },
+    {
+        "title": "Constructor de Áreas",
+        "description": "Crea tus propias formas con bloques de colores y explora la relación entre el perímetro y el área. Compara el área y perímetro de dos formas lado a lado. Ponte a prueba en la pantalla del juego para construir formas o encontrar el área de figuras funky. ¡Trata de recoger muchas estrellas!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Matemáticas"
+        ],
+        "screenshot": "area-builder-600.png",
+        "file": "area-builder_es.html"
+    },
+    {
+        "title": "Concentración",
+        "description": "Observa el cambio de color de tu solución al mezclar los químicos con agua. Luego comprueba la molaridad  con el medidor de concentración. ¿Cuáles son todas las formas en que puedes cambiar la concentración de tu solución? ¡Cambia los solutos para comparar diferentes químicos y averiguar qué tan concentrada puede estar antes de llegar a la saturación!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Química"
+        ],
+        "screenshot": "concentration-600.png",
+        "file": "concentration_es.html"
+    },
+    {
+        "title": "Cargas y campos",
+        "description": "Mueve las cargas positivas y negativas alrededor del campo de juego y ve el campo eléctrico y el potencial electrostático. Traza las líneas equipotenciales y descubre su relación con el campo eléctrico. ¡Crea modelos de dipolos, condensadores y mucho más!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Física"
+        ],
+        "screenshot": "charges-and-fields-600.png",
+        "file": "charges-and-fields_es.html"
+    },
+    {
+        "title": "Conductividad",
+        "description": "Experimenta con conductividad en metales, plásticos y fotoconductores. Ve por qué los metales conducen y los plásticos no, y por qué algunos materiales conducen sólo cuando una linterna los ilumina.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "conductivity-600.png",
+        "file": "conductivity_es.jar"
+    },
+    {
+        "title": "Comida y Ejercicio",
+        "description": "¿Cuántas calorías hay en tus alimentos favoritos? ¿Cuánto ejercicio tendrías que hacer para quemar esas calorías? ¿Cuál es la relación entre las calorías y el peso? Explora estos temas al escoger una dieta y ejercicio y observar tu peso.",
+        "categorias": [
+            "Biología"
+        ],
+        "screenshot": "eating-and-exercise-600.png",
+        "file": "eating-and-exercise_es.jar"
+    },
+    {
+        "title": "Carga Radiante",
+        "description": "Las líneas de campo eléctrico de una carga puntual evolucionan en el tiempo a medida que la carga se mueve. Ve cómo se propaga la radiación hacia el exterior a la velocidad de la luz cuando mueves la carga. Detén una carga en movimiento para ver la radiación \"bremsstrahlung\"  (de frenado). Explora los patrones de radiación y cómo la carga se mueve con movimiento sinusoidal, circular o lineal. Puedes mover la carga de la forma que desees, siempre y cuando no se exceda la velocidad de la luz.",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "radiating-charge-600.png",
+        "file": "radiating-charge_es.jar"
+    },
+    {
+        "title": "Canales de Membrana",
+        "description": "Introduce los canales en la membrana y ve qué pasa. Ve cómo diferentes tipos de canales permiten que las partículas se muevan a través de la membrana.",
+        "categorias": [
+            "Biología"
+        ],
+        "screenshot": "membrane-channels-600.png",
+        "file": "membrane-channels_es.jar"
+    },
+    {
+        "title": "campo e",
+        "description": "¡A jugar a la pelota! Añade cargas al Campo Eléctrico y ve cómo reaccionan al campo eléctrico. Activa el fondo del campo eléctrico y ajusta la dirección y magnitud. (Kevin Costner no incluido).",
+        "categorias": [
+            "Física"
+        ],
+        "screenshot": "efield-600.png",
+        "file": "efield_es.jar"
+    },
+    {
+        "title": "Balanceo de Ecuaciones Químicas",
+        "description": "¿Cómo saber si una ecuación química está equilibrada? ¿Qué puedes cambiar para equilibrar una ecuación? ¡Juega para poner a prueba tus ideas!",
+        "categorias": [
+            "Nuevas Simulaciones",
+            "Química"
+        ],
+        "screenshot": "balancing-chemical-equations-600.png",
+        "file": "balancing-chemical-equations_es.html"
+    },
+    {
+        "title": "Cambios y formas de energías",
+        "description": "Explora cómo el enfriar o calentar hierro, ladrillo y agua aumenta o disminuye la energía. Ve cómo se transfiere la energía entre objetos. Construye tu propio sistema, con fuentes, cambios y usos de energía. Rastrea y visualiza cómo fluye y cambia la energía a través de tu sistema.",
+        "categorias": [
+            "Física",
+            "Química"
+        ],
+        "screenshot": "energy-forms-and-changes-600.png",
+        "file": "energy-forms-and-changes_es.jar"
+    }
+]
